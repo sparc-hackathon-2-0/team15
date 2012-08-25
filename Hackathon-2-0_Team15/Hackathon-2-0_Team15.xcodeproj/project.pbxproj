@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7FF3949915E910B000EBCD2A /* MainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7FF3949815E910B000EBCD2A /* MainView.xib */; };
 		9E2E7F3615E9046F00587866 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E2E7F3515E9046F00587866 /* UIKit.framework */; };
 		9E2E7F3815E9046F00587866 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E2E7F3715E9046F00587866 /* Foundation.framework */; };
 		9E2E7F3A15E9046F00587866 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E2E7F3915E9046F00587866 /* CoreGraphics.framework */; };
@@ -32,6 +33,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7FF3949815E910B000EBCD2A /* MainView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainView.xib; sourceTree = "<group>"; };
 		9E2E7F3115E9046F00587866 /* Hackathon-2-0_Team15.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hackathon-2-0_Team15.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E2E7F3515E9046F00587866 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		9E2E7F3715E9046F00587866 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -114,6 +116,7 @@
 				9E2E7F3C15E9046F00587866 /* Supporting Files */,
 				9E2E7F6415E9058C00587866 /* MainViewController.h */,
 				9E2E7F6515E9058C00587866 /* MainViewController.m */,
+				7FF3949815E910B000EBCD2A /* MainView.xib */,
 			);
 			path = "Hackathon-2-0_Team15";
 			sourceTree = "<group>";
@@ -219,6 +222,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E2E7F4015E9046F00587866 /* InfoPlist.strings in Resources */,
+				7FF3949915E910B000EBCD2A /* MainView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,6 +421,7 @@
 				9E2E7F6015E9046F00587866 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9E2E7F6115E9046F00587866 /* Build configuration list for PBXNativeTarget "Hackathon-2-0_Team15Tests" */ = {
 			isa = XCConfigurationList;
@@ -425,6 +430,7 @@
 				9E2E7F6315E9046F00587866 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
