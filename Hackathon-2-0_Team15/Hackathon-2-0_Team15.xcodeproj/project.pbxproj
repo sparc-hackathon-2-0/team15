@@ -18,6 +18,7 @@
 		9E2E7F5015E9046F00587866 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E2E7F3715E9046F00587866 /* Foundation.framework */; };
 		9E2E7F5815E9046F00587866 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9E2E7F5615E9046F00587866 /* InfoPlist.strings */; };
 		9E2E7F5B15E9046F00587866 /* Hackathon_2_0_Team15Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E2E7F5A15E9046F00587866 /* Hackathon_2_0_Team15Tests.m */; };
+		9E2E7F6615E9058C00587866 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E2E7F6515E9058C00587866 /* MainViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,8 @@
 		9E2E7F5715E9046F00587866 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9E2E7F5915E9046F00587866 /* Hackathon_2_0_Team15Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Hackathon_2_0_Team15Tests.h; sourceTree = "<group>"; };
 		9E2E7F5A15E9046F00587866 /* Hackathon_2_0_Team15Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Hackathon_2_0_Team15Tests.m; sourceTree = "<group>"; };
+		9E2E7F6415E9058C00587866 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		9E2E7F6515E9058C00587866 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +112,8 @@
 				9E2E7F4415E9046F00587866 /* AppDelegate.h */,
 				9E2E7F4515E9046F00587866 /* AppDelegate.m */,
 				9E2E7F3C15E9046F00587866 /* Supporting Files */,
+				9E2E7F6415E9058C00587866 /* MainViewController.h */,
+				9E2E7F6515E9058C00587866 /* MainViewController.m */,
 			);
 			path = "Hackathon-2-0_Team15";
 			sourceTree = "<group>";
@@ -250,6 +255,7 @@
 			files = (
 				9E2E7F4215E9046F00587866 /* main.m in Sources */,
 				9E2E7F4615E9046F00587866 /* AppDelegate.m in Sources */,
+				9E2E7F6615E9058C00587866 /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
