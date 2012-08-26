@@ -1,45 +1,46 @@
 //
-//  UserTypeViewController.m
+//  NewAppointmentViewController.m
 //  Medical
 //
 //  Created by Jordan Homan on 8/25/12.
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
-#import "UserTypeViewController.h"
+#import "NewAppointmentViewController.h"
 
-@interface UserTypeViewController ()
+@interface NewAppointmentViewController ()
 
 @end
 
-@implementation UserTypeViewController
+@implementation NewAppointmentViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         // Custom initialization
+        
+        checkupViewController = [[CheckupViewController alloc] initWithNibName:@"Checkup" bundle:nil];
+        checkupViewController.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
+        checkupViewController.wantsFullScreenLayout = YES;
+        
+        injuredViewConroller = [[InjuredViewController alloc] initWithNibName:@"Injured" bundle:nil];
+        injuredViewConroller.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
+        injuredViewConroller.wantsFullScreenLayout = YES;
     }
-    patientInfoOneViewController = [[PatientInfoOneViewController alloc] initWithNibName:@"PatientInfoOne" bundle:nil];
-    patientInfoOneViewController.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
-    patientInfoOneViewController.wantsFullScreenLayout = YES;
-    
-    loginViewController = [[LoginViewController alloc] initWithNibName:@"LoginViewController" bundle:nil];
-    loginViewController.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
-    loginViewController.wantsFullScreenLayout = YES;
-    
     return self;
 }
 
 - (void)viewDidLoad
 {
-    [super viewDidLoad];
-    
+    NSLog(@"appointment loaded");
     UIView *backgroundview = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 320, 480)];
     UIColor *background = [[UIColor alloc] initWithPatternImage:[UIImage imageNamed:@"bg-primary@2x.png"]];
     backgroundview.backgroundColor = background;
     [self.view insertSubview:backgroundview atIndex:0];
     [background release];
+    
+    [super viewDidLoad];
 	// Do any additional setup after loading the view.
 }
 
@@ -54,19 +55,21 @@
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 
-
--(IBAction) goToLoginView {
-    [self presentModalViewController:loginViewController animated:YES];
+- (IBAction) goToCheckup {
+    [self presentModalViewController:checkupViewController animated:YES];
     
 }
--(IBAction) goToPatientView {
-    [self presentModalViewController:patientInfoOneViewController animated:YES];
+- (IBAction) goToFeelingIll {
+    
 }
--(IBAction) goToNurseView {
-    
-}-(IBAction) goToDoctorView {
-    
+- (IBAction) goToInjured {
+    [self presentModalViewController:injuredViewConroller animated:YES];
 }
 
+- (IBAction) logOut {
+
+    
+    
+}
 
 @end

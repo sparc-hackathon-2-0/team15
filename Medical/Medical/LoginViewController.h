@@ -7,7 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DoctorViewController.h"
 
-@interface LoginViewController : UIViewController
+@interface LoginViewController : UIViewController {
+    DoctorViewController *doctorViewController;
+    
+    IBOutlet UITextField *txtEmail;
+    IBOutlet UITextField *txtPassword;
+}
+
+-(IBAction)login;
 
 @end

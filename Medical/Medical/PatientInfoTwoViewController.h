@@ -7,7 +7,23 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "PatientInfoThreeViewController.h"
 
 @interface PatientInfoTwoViewController : UIViewController
+{
+    IBOutlet UITextField *txtFirstName;
+    IBOutlet UITextField *txtLastName;
+    IBOutlet UITextField *txtAddress;
+    IBOutlet UITextField *txtState;
+    IBOutlet UITextField *txtCity;
+    
+    PatientInfoThreeViewController *patientInfoThreeViewController;
+
+}
+
+-(IBAction) goToPatientThree;
+
+-(IBAction) back;
+
 
 @end
