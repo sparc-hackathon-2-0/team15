@@ -23,6 +23,9 @@
         doctorViewController = [[DoctorViewController alloc] initWithNibName:@"Doctor" bundle:nil];
         doctorViewController.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
         doctorViewController.wantsFullScreenLayout = YES;
+        
+        
+        
     
     }
     return self;
@@ -30,6 +33,7 @@
 
 - (void)viewDidLoad
 {
+    txtPassword.secureTextEntry = YES;
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
 }
@@ -37,6 +41,10 @@
 -(IBAction)login {
     
     [self presentModalViewController:doctorViewController animated:YES];
+}
+
+-(IBAction)back {
+    [self dismissModalViewControllerAnimated:YES];
 }
 
 -(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {

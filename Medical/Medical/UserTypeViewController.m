@@ -28,6 +28,10 @@
     loginViewController.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
     loginViewController.wantsFullScreenLayout = YES;
     
+    doctorViewController = [[DoctorViewController alloc] initWithNibName:@"Doctor" bundle:nil];
+    doctorViewController.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
+    doctorViewController.wantsFullScreenLayout = YES;
+    
     return self;
 }
 
@@ -65,6 +69,7 @@
 -(IBAction) goToNurseView {
     
 }-(IBAction) goToDoctorView {
+    [self presentModalViewController:doctorViewController animated:YES];
     
 }
 

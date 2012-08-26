@@ -236,6 +236,9 @@
    	return cell;
 }
 
+-(IBAction) back {
+    [self dismissModalViewControllerAnimated:YES];
+}
 
 
 - (void)viewDidUnload

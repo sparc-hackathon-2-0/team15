@@ -31,7 +31,7 @@
     IBOutlet UIButton *rightfoot;
     
 }
-
+-(IBAction) back;
 -(IBAction) saveInjured;
 
 

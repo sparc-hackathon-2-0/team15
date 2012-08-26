@@ -42,6 +42,31 @@
     imgBoneShowing.hidden = NO;
 }
 
+-(IBAction) back {
+    [self dismissModalViewControllerAnimated:YES];
+}
+
+-(IBAction) save {
+
+    [[UIApplication sharedApplication] endIgnoringInteractionEvents];
+    UIAlertView *serverError = [[[UIAlertView alloc] initWithTitle:@"Done!" message:@"Your Appointment has been scheduled." 
+                                                          delegate:self cancelButtonTitle:@"OK" otherButtonTitles: nil] autorelease];
+    [serverError setTag:3];
+    [serverError show];
+    
+}
+
+-(void)alertView:(UIAlertView *) alertView didDismissWithButtonIndex:(NSInteger)buttonIndex {
+    
+    if([alertView tag] == 3)
+    {
+        if(buttonIndex == 0)
+        {
+            [self dismissModalViewControllerAnimated:YES];
+        }
+    }
+}
+
 
 - (void)viewDidLoad
 {

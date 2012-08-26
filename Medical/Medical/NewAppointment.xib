@@ -40,10 +40,10 @@
 					<object class="IBUIButton" id="710387649">
 						<reference key="NSNextResponder" ref="112363473"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{20, 96}, {280, 37}}</string>
+						<string key="NSFrame">{{20, 95}, {280, 37}}</string>
 						<reference key="NSSuperview" ref="112363473"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="900371097"/>
+						<reference key="NSNextKeyView"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<bool key="IBUIOpaque">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
@@ -73,36 +73,12 @@
 							<int key="NSfFlags">16</int>
 						</object>
 					</object>
-					<object class="IBUIButton" id="900371097">
-						<reference key="NSNextResponder" ref="112363473"/>
-						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{20, 155}, {280, 37}}</string>
-						<reference key="NSSuperview" ref="112363473"/>
-						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="564673834"/>
-						<string key="NSReuseIdentifierKey">_NS:9</string>
-						<bool key="IBUIOpaque">NO</bool>
-						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<int key="IBUIContentHorizontalAlignment">0</int>
-						<int key="IBUIContentVerticalAlignment">0</int>
-						<int key="IBUIButtonType">1</int>
-						<string key="IBUINormalTitle">Feeling Ill?</string>
-						<reference key="IBUIHighlightedTitleColor" ref="369273674"/>
-						<object class="NSColor" key="IBUINormalTitleColor">
-							<int key="NSColorSpace">1</int>
-							<bytes key="NSRGB">MC4xOTYwNzg0MzQ2IDAuMzA5ODAzOTMyOSAwLjUyMTU2ODY1NgA</bytes>
-						</object>
-						<reference key="IBUINormalTitleShadowColor" ref="765973246"/>
-						<reference key="IBUIFontDescription" ref="656872200"/>
-						<reference key="IBUIFont" ref="271384129"/>
-					</object>
 					<object class="IBUIButton" id="564673834">
 						<reference key="NSNextResponder" ref="112363473"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{20, 217}, {280, 37}}</string>
+						<string key="NSFrame">{{20, 153}, {280, 37}}</string>
 						<reference key="NSSuperview" ref="112363473"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<bool key="IBUIOpaque">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
@@ -125,7 +101,7 @@
 						<string key="NSFrame">{{0, 20}, {320, 50}}</string>
 						<reference key="NSSuperview" ref="112363473"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="220024904"/>
+						<reference key="NSNextKeyView"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
@@ -161,29 +137,6 @@
 							<double key="NSSize">23</double>
 							<int key="NSfFlags">16</int>
 						</object>
-					</object>
-					<object class="IBUIButton" id="220024904">
-						<reference key="NSNextResponder" ref="112363473"/>
-						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{-5, 26}, {82, 37}}</string>
-						<reference key="NSSuperview" ref="112363473"/>
-						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="997148177"/>
-						<string key="NSReuseIdentifierKey">_NS:9</string>
-						<bool key="IBUIOpaque">NO</bool>
-						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<int key="IBUIContentHorizontalAlignment">0</int>
-						<int key="IBUIContentVerticalAlignment">0</int>
-						<int key="IBUIButtonType">1</int>
-						<string key="IBUINormalTitle">Log Out</string>
-						<reference key="IBUIHighlightedTitleColor" ref="369273674"/>
-						<object class="NSColor" key="IBUINormalTitleColor">
-							<int key="NSColorSpace">1</int>
-							<bytes key="NSRGB">MC4xOTYwNzg0MzQ2IDAuMzA5ODAzOTMyOSAwLjUyMTU2ODY1NgA</bytes>
-						</object>
-						<reference key="IBUINormalTitleShadowColor" ref="765973246"/>
-						<reference key="IBUIFontDescription" ref="656872200"/>
-						<reference key="IBUIFont" ref="271384129"/>
 					</object>
 				</array>
 				<string key="NSFrameSize">{320, 460}</string>
@@ -222,15 +175,6 @@
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
-						<string key="label">goToFeelingIll</string>
-						<reference key="source" ref="900371097"/>
-						<reference key="destination" ref="841351856"/>
-						<int key="IBEventType">7</int>
-					</object>
-					<int key="connectionID">10</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchEventConnection" key="connection">
 						<string key="label">goToInjured</string>
 						<reference key="source" ref="564673834"/>
 						<reference key="destination" ref="841351856"/>
@@ -262,23 +206,16 @@
 						<int key="objectID">2</int>
 						<reference key="object" ref="112363473"/>
 						<array class="NSMutableArray" key="children">
-							<reference ref="900371097"/>
-							<reference ref="564673834"/>
 							<reference ref="997148177"/>
-							<reference ref="710387649"/>
 							<reference ref="76907117"/>
-							<reference ref="220024904"/>
+							<reference ref="710387649"/>
+							<reference ref="564673834"/>
 						</array>
 						<reference key="parent" ref="0"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">4</int>
 						<reference key="object" ref="710387649"/>
-						<reference key="parent" ref="112363473"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">5</int>
-						<reference key="object" ref="900371097"/>
 						<reference key="parent" ref="112363473"/>
 					</object>
 					<object class="IBObjectRecord">
@@ -296,11 +233,6 @@
 						<reference key="object" ref="997148177"/>
 						<reference key="parent" ref="112363473"/>
 					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">12</int>
-						<reference key="object" ref="220024904"/>
-						<reference key="parent" ref="112363473"/>
-					</object>
 				</array>
 			</object>
 			<dictionary class="NSMutableDictionary" key="flattenedProperties">
@@ -308,10 +240,8 @@
 				<string key="-1.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<string key="-2.CustomClassName">UIResponder</string>
 				<string key="-2.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<string key="12.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<string key="2.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<string key="4.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<string key="5.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<string key="6.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<string key="7.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<string key="8.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
@@ -331,6 +261,7 @@
 						<string key="goToCheckup">id</string>
 						<string key="goToFeelingIll">id</string>
 						<string key="goToInjured">id</string>
+						<string key="logOut">id</string>
 					</dictionary>
 					<dictionary class="NSMutableDictionary" key="actionInfosByName">
 						<object class="IBActionInfo" key="goToCheckup">
@@ -343,6 +274,10 @@
 						</object>
 						<object class="IBActionInfo" key="goToInjured">
 							<string key="name">goToInjured</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="logOut">
+							<string key="name">logOut</string>
 							<string key="candidateClassName">id</string>
 						</object>
 					</dictionary>

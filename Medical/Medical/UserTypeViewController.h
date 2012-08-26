@@ -9,11 +9,13 @@
 #import <UIKit/UIKit.h>
 #import "PatientInfoOneViewController.h"
 #import "LoginViewController.h"
+#import "DoctorViewController.h"
 
 @interface UserTypeViewController : UIViewController {
     
     LoginViewController *loginViewController;
     PatientInfoOneViewController *patientInfoOneViewController;
+    DoctorViewController *doctorViewController;
     
 }
 

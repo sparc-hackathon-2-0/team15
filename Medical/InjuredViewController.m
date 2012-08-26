@@ -43,6 +43,9 @@
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 
+-(IBAction) back {
+    [self dismissModalViewControllerAnimated:YES];
+}
 -(IBAction) saveInjured {
     
     [self presentModalViewController:injuredDetailsViewController animated:YES];

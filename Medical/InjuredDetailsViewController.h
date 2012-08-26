@@ -14,9 +14,11 @@
     IBOutlet UIImageView *imgBleeding;
     IBOutlet UIImageView *imgBoneShowing;
 }
-
+-(IBAction) back;
 -(IBAction) setDizzy;
 -(IBAction) setBleeding;
 -(IBAction) setBoneShowing;
+
+-(IBAction) save;
 
 @end

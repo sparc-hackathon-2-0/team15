@@ -26,6 +26,8 @@
 }
 
 
+-(IBAction) back;
+
 @property (retain) IBOutlet UITableView *appointmentList;
 
 @end

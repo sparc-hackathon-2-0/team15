@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E21D59B15E9A26E005E5044 /* btn-signin-lrg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E21D59A15E9A26E005E5044 /* btn-signin-lrg@2x.png */; };
+		9E21D59D15E9A7B9005E5044 /* btn-skip@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E21D59C15E9A7B8005E5044 /* btn-skip@2x.png */; };
+		9E21D59F15E9A9D4005E5044 /* btn-createappt@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E21D59E15E9A9D3005E5044 /* btn-createappt@2x.png */; };
 		9E42E46515E989B500514AE0 /* bg-man@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E42E46415E989B500514AE0 /* bg-man@2x.png */; };
 		9E42E46815E98A4400514AE0 /* btn-glass-window@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E42E46715E98A4400514AE0 /* btn-glass-window@2x.png */; };
 		9E42E46A15E98C1900514AE0 /* InjuredDetails.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E42E46915E98C1900514AE0 /* InjuredDetails.xib */; };
@@ -71,6 +74,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9E21D59A15E9A26E005E5044 /* btn-signin-lrg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-signin-lrg@2x.png"; sourceTree = SOURCE_ROOT; };
+		9E21D59C15E9A7B8005E5044 /* btn-skip@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-skip@2x.png"; sourceTree = SOURCE_ROOT; };
+		9E21D59E15E9A9D3005E5044 /* btn-createappt@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-createappt@2x.png"; sourceTree = SOURCE_ROOT; };
 		9E42E46415E989B500514AE0 /* bg-man@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg-man@2x.png"; sourceTree = SOURCE_ROOT; };
 		9E42E46715E98A4400514AE0 /* btn-glass-window@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-glass-window@2x.png"; sourceTree = SOURCE_ROOT; };
 		9E42E46915E98C1900514AE0 /* InjuredDetails.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = InjuredDetails.xib; path = ../InjuredDetails.xib; sourceTree = "<group>"; };
@@ -101,7 +107,7 @@
 		9E712C9715E984EC0004AF2D /* InjuredViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InjuredViewController.m; sourceTree = "<group>"; };
 		9E712C9A15E984FF0004AF2D /* Injured.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Injured.xib; sourceTree = "<group>"; };
 		9E712C9C15E9868D0004AF2D /* check-active@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "check-active@2x.png"; sourceTree = SOURCE_ROOT; };
-		9EDC380115E9187C004CBE4C /* Medical.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Medical.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EDC380115E9187C004CBE4C /* AppointMED.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppointMED.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EDC380515E9187C004CBE4C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		9EDC380715E9187C004CBE4C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9EDC380915E9187C004CBE4C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -187,7 +193,7 @@
 		9EDC380215E9187C004CBE4C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9EDC380115E9187C004CBE4C /* Medical.app */,
+				9EDC380115E9187C004CBE4C /* AppointMED.app */,
 				9EDC381C15E9187D004CBE4C /* MedicalTests.octest */,
 			);
 			name = Products;
@@ -238,6 +244,7 @@
 			isa = PBXGroup;
 			children = (
 				9E42E47B15E994D600514AE0 /* Icon.png */,
+				9E21D59C15E9A7B8005E5044 /* btn-skip@2x.png */,
 				9E42E47515E9942600514AE0 /* icon-happy@2x.png */,
 				9E42E47615E9942600514AE0 /* icon-unhappy@2x.png */,
 				9E42E46715E98A4400514AE0 /* btn-glass-window@2x.png */,
@@ -256,8 +263,10 @@
 				9EDC381315E9187C004CBE4C /* Medical-Prefix.pch */,
 				9E42E46915E98C1900514AE0 /* InjuredDetails.xib */,
 				9EDC383715E918F8004CBE4C /* UserTypeView.xib */,
+				9E21D59E15E9A9D3005E5044 /* btn-createappt@2x.png */,
 				9EDC383C15E91C41004CBE4C /* LoginViewController.xib */,
 				9EDC383E15E91C69004CBE4C /* PatientInfoOne.xib */,
+				9E21D59A15E9A26E005E5044 /* btn-signin-lrg@2x.png */,
 				9E6AFEAB15E983B5003BDCD8 /* btn-continue@2x.png */,
 				9EDC384215E91C84004CBE4C /* PatientInfoThree.xib */,
 				9EDC385515E925DE004CBE4C /* PatientInfoTwo.xib */,
@@ -306,7 +315,7 @@
 			);
 			name = Medical;
 			productName = Medical;
-			productReference = 9EDC380115E9187C004CBE4C /* Medical.app */;
+			productReference = 9EDC380115E9187C004CBE4C /* AppointMED.app */;
 			productType = "com.apple.product-type.application";
 		};
 		9EDC381B15E9187D004CBE4C /* MedicalTests */ = {
@@ -387,6 +396,9 @@
 				9E42E47815E9942700514AE0 /* icon-unhappy@2x.png in Resources */,
 				9E42E47A15E9945500514AE0 /* Icon@2x.png in Resources */,
 				9E42E47C15E994D600514AE0 /* Icon.png in Resources */,
+				9E21D59B15E9A26E005E5044 /* btn-signin-lrg@2x.png in Resources */,
+				9E21D59D15E9A7B9005E5044 /* btn-skip@2x.png in Resources */,
+				9E21D59F15E9A9D4005E5044 /* btn-createappt@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -538,7 +550,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Medical/Medical-Prefix.pch";
 				INFOPLIST_FILE = "Medical/Medical-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = AppointMED;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -549,7 +561,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Medical/Medical-Prefix.pch";
 				INFOPLIST_FILE = "Medical/Medical-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = AppointMED;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

@@ -55,10 +55,10 @@
 					<object class="IBUIButton" id="430519200">
 						<reference key="NSNextResponder" ref="1009204896"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{71, 278}, {173, 31}}</string>
+						<string key="NSFrame">{{71, 293}, {173, 31}}</string>
 						<reference key="NSSuperview" ref="1009204896"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="1061947603"/>
+						<reference key="NSNextKeyView"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<bool key="IBUIOpaque">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
@@ -91,39 +91,12 @@
 							<int key="NSfFlags">16</int>
 						</object>
 					</object>
-					<object class="IBUIButton" id="1061947603">
-						<reference key="NSNextResponder" ref="1009204896"/>
-						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{71, 331}, {173, 31}}</string>
-						<reference key="NSSuperview" ref="1009204896"/>
-						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="830151968"/>
-						<string key="NSReuseIdentifierKey">_NS:9</string>
-						<bool key="IBUIOpaque">NO</bool>
-						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<int key="IBUIContentHorizontalAlignment">0</int>
-						<int key="IBUIContentVerticalAlignment">0</int>
-						<string key="IBUINormalTitle">Nurse</string>
-						<reference key="IBUIHighlightedTitleColor" ref="844695924"/>
-						<object class="NSColor" key="IBUINormalTitleColor">
-							<int key="NSColorSpace">1</int>
-							<bytes key="NSRGB">MC4xOTYwNzg0MzQ2IDAuMzA5ODAzOTMyOSAwLjUyMTU2ODY1NgA</bytes>
-						</object>
-						<reference key="IBUINormalTitleShadowColor" ref="231152779"/>
-						<object class="NSCustomResource" key="IBUINormalImage">
-							<string key="NSClassName">NSImage</string>
-							<string key="NSResourceName">btn-intro-nurse@2x.png</string>
-						</object>
-						<reference key="IBUIFontDescription" ref="301685460"/>
-						<reference key="IBUIFont" ref="143488566"/>
-					</object>
 					<object class="IBUIButton" id="830151968">
 						<reference key="NSNextResponder" ref="1009204896"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{71, 383}, {173, 31}}</string>
+						<string key="NSFrame">{{71, 344}, {173, 31}}</string>
 						<reference key="NSSuperview" ref="1009204896"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<bool key="IBUIOpaque">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
@@ -146,7 +119,7 @@
 					<object class="IBUILabel" id="56897471">
 						<reference key="NSNextResponder" ref="1009204896"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{120, 243}, {80, 21}}</string>
+						<string key="NSFrame">{{120, 257}, {80, 21}}</string>
 						<reference key="NSSuperview" ref="1009204896"/>
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="430519200"/>
@@ -252,21 +225,12 @@
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
-						<string key="label">goToNurseView</string>
-						<reference key="source" ref="1061947603"/>
-						<reference key="destination" ref="841351856"/>
-						<int key="IBEventType">7</int>
-					</object>
-					<int key="connectionID">8</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchEventConnection" key="connection">
 						<string key="label">goToDoctorView</string>
 						<reference key="source" ref="830151968"/>
 						<reference key="destination" ref="841351856"/>
 						<int key="IBEventType">7</int>
 					</object>
-					<int key="connectionID">9</int>
+					<int key="connectionID">15</int>
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
@@ -302,23 +266,17 @@
 						<reference key="object" ref="1009204896"/>
 						<array class="NSMutableArray" key="children">
 							<reference ref="796439367"/>
+							<reference ref="988814691"/>
+							<reference ref="516444826"/>
 							<reference ref="830151968"/>
-							<reference ref="1061947603"/>
 							<reference ref="430519200"/>
 							<reference ref="56897471"/>
-							<reference ref="516444826"/>
-							<reference ref="988814691"/>
 						</array>
 						<reference key="parent" ref="0"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">4</int>
 						<reference key="object" ref="430519200"/>
-						<reference key="parent" ref="1009204896"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">5</int>
-						<reference key="object" ref="1061947603"/>
 						<reference key="parent" ref="1009204896"/>
 					</object>
 					<object class="IBObjectRecord">
@@ -359,15 +317,13 @@
 				<string key="14.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<string key="2.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<string key="4.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<string key="5.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<real value="0.0" key="5.IBUIButtonInspectorSelectedStateConfigurationMetadataKey"/>
 				<string key="6.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 			</dictionary>
 			<dictionary class="NSMutableDictionary" key="unlocalizedProperties"/>
 			<nil key="activeLocalization"/>
 			<dictionary class="NSMutableDictionary" key="localizations"/>
 			<nil key="sourceID"/>
-			<int key="maxID">14</int>
+			<int key="maxID">15</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<array class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -416,7 +372,6 @@
 		<dictionary class="NSMutableDictionary" key="IBDocument.LastKnownImageSizes">
 			<string key="bg-label@2x.png">{640, 90}</string>
 			<string key="btn-intro-doctor@2x.png">{345, 63}</string>
-			<string key="btn-intro-nurse@2x.png">{345, 63}</string>
 			<string key="btn-intro-patient@2x.png">{345, 63}</string>
 			<string key="btn-login@2x.png">{114, 63}</string>
 			<string key="logo@2x.png">{340, 188}</string>

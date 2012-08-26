@@ -279,7 +279,6 @@
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						<int key="IBUIContentHorizontalAlignment">0</int>
 						<int key="IBUIContentVerticalAlignment">0</int>
-						<int key="IBUIButtonType">1</int>
 						<string key="IBUINormalTitle">Skip this Step</string>
 						<reference key="IBUIHighlightedTitleColor" ref="980106530"/>
 						<object class="NSColor" key="IBUINormalTitleColor">
@@ -287,6 +286,10 @@
 							<bytes key="NSRGB">MC4xOTYwNzg0MzQ2IDAuMzA5ODAzOTMyOSAwLjUyMTU2ODY1NgA</bytes>
 						</object>
 						<reference key="IBUINormalTitleShadowColor" ref="574932004"/>
+						<object class="NSCustomResource" key="IBUINormalImage">
+							<string key="NSClassName">NSImage</string>
+							<string key="NSResourceName">btn-skip@2x.png</string>
+						</object>
 						<reference key="IBUIFontDescription" ref="535252167"/>
 						<reference key="IBUIFont" ref="609156924"/>
 					</object>
@@ -546,6 +549,7 @@
 			<string key="bg-label@2x.png">{640, 90}</string>
 			<string key="btn-continue@2x.png">{560, 63}</string>
 			<string key="btn-prev@2x.png">{114, 63}</string>
+			<string key="btn-skip@2x.png">{560, 63}</string>
 		</dictionary>
 		<string key="IBCocoaTouchPluginVersion">1181</string>
 	</data>
